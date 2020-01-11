@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body bgcolor="#D5F5E3">
+    <h5>Please fill out the form and submit</h5>
+    <p>I'll get back to you as soon as I finish the previous order</p>
+
+    <form action="index.html" method="get">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>   
+        </div>
+        <div>
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="lastName" required>   
+        </div>
+        <div>
+            <label>
+                Email
+                <input type="email" name="email" required>
+            </label>
+        </div>
+        <div>
+            <label>
+                Phone Number
+                <input type="number" placeholder="ex: 123456789"
+                min="10" name="phone" required>
+            </label>
+        </div>
+        <button type="submit">Submit Your Information</button>
+    </form>
+    <hr>
+    <footer>
+        This website was built by me
+    </footer>
+</body>
+</html>
